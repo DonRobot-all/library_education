@@ -5,45 +5,54 @@ import calendar
 # time
 # datetime
 
-somedate = datetime.date(2012, 9, 1)
-print(somedate)
+# somedate = datetime.date(2012, 9, 1)
+# print(somedate)
 
-today = datetime.date.today()
-print(today)
+# today = datetime.date.today()
+# print(today)
 
-print(f'Сегодня {today.year}, месяц {today.month}, {today.day}, день недели {today.weekday()}')
-
-
-timer = datetime.time()
-print(timer)
-
-timer = datetime.time(16, 25)
-print(timer)
-
-timer = datetime.time(16,25,45)
-print(timer)
+# print(f'Сегодня {today.year}, месяц {today.month}, {today.day}, день недели {today.weekday()}')
 
 
-day = datetime.datetime(2023, 12, 10, 12,15,15)
-print(day)
+# timer = datetime.time()
+# print(timer)
 
-today = datetime.datetime.now()
-print(today)
-print(today.date())
-print(today.time())
-print(today.day, today.minute)
+# timer = datetime.time(16, 25)
+# print(timer)
+
+# timer = datetime.time(16,25,45)
+# print(timer)
 
 
-test = '22.07.2012'
-str_to_obj = datetime.datetime.strptime(test, '%d.%m.%Y')
-print(str_to_obj)
+# day = datetime.datetime(2023, 12, 10, 12,15,15)
+# print(day)
 
-test = '10.11.2024 12:30:30'
-str_to_obj = datetime.datetime.strptime(test, '%d.%m.%Y %H:%M:%S')
-# str_to_obj += datetime.timedelta(days=1)
-print(str_to_obj.weekday())
-print(str_to_obj.day)
-print(str_to_obj.month)
+# today = datetime.datetime.now()
+# print(today)
+# print(today.date())
+# print(today.time())
+# print(today.day, today.minute)
+
+
+# test = '22.07.2012'
+# str_to_obj = datetime.datetime.strptime(test, '%d.%m.%Y')
+# print(str_to_obj)
+
+# month = {
+#     'январь': 31
+# }
+
+# test = '11.11.2024 12:30:30'
+# str_to_obj = datetime.datetime.strptime(test, '%d.%m.%Y %H:%M:%S')
+# # str_to_obj += datetime.timedelta(days=month['январь'])
+# str_to_obj += datetime.timedelta(days=365)
+# print(str_to_obj)
+# print(str_to_obj.weekday())
+# print(str_to_obj.day)
+# print(str_to_obj.month)
+
+# sec = datetime.timedelta(days=1)
+# print(sec.total_seconds())
 
 
     # %d: день месяца в виде числа
